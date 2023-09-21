@@ -1,0 +1,25 @@
+{
+    "nombre": "carlos",
+    "correo": "carlos@gmail.com",
+    "telefono": 5510243687,
+    "celular": 5523645789,
+    "date": "26/05/2001",
+    "genero": "Masculino",
+    "direccion": "calle neza",
+    "codigoPostal": 52230,
+    "NumeroExterior": 16,
+    "NumeroInterior": 5,
+    "Delegacion": "venustiano carranza",
+    "Colonia": "manzanas",
+    "opcionesP": "Ciudad de México",
+    "preguntaUno": "entre a estudiar",
+    "preguntaDos": "es una gran empresa",
+    "opcionC": "Trabjo en equipo",
+    "preguntaDesc": "soy comunicativo",
+    "opcionIngles": "Intermedio",
+    "opcionComunicacion": "Reuniones frecuentes en persona",
+    "situacionSuperada": "al entrar a la universidad",
+    "preguntaPrefieres": "Innovadora y creativa",
+    "active": true
+
+}
