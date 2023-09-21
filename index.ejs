@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="form-content">
+            <h1 id="title">DATOS PERSONALES</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id = "nombre" placeholder="Nombre">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" id="email" placeholder="Correo">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="tel" id = "telefono" placeholder="Teléfono fijo">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="tel" id = "celular" placeholder="Teléfono celular">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label class="input-field"><input type="date" id = "date" name="date" />
+                        </label>
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>Sexo </label>
+                        <select name="option" type="option" id="genero" class="input-field">
+                            <option>Selecione</option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                            <option>Prefiero no Responder</option>
+                        </select> 
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="direccion" placeholder="Dirección">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" id= "codigoPostal" placeholder="Código Postal">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id= "NumeroExterior" placeholder="Número Exterior">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="NumeroInterior" placeholder="Número Interior">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" id= "Delegacion" placeholder="Delegación">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="text" id="Colonia" placeholder="Colonia">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>Estado </label>
+                        <select name="option" type="option" id= "opcionesP" class="input-field">
+                            <option>Selecionar</option>
+                            <option value="no">Seleccione uno...</option>
+                            <option value="Aguascalientes">Aguascalientes</option>
+                            <option value="Baja California">Baja California</option>
+                            <option value="Baja California Sur">Baja California Sur</option>
+                            <option value="Campeche">Campeche</option>
+                            <option value="Chiapas">Chiapas</option>
+                            <option value="Chihuahua">Chihuahua</option>
+                            <option value="Ciudad de México">Ciudad de México</option>
+                            <option value="Coahuila">Coahuila</option>
+                            <option value="Colima">Colima</option>
+                            <option value="Durango">Durango</option>
+                            <option value="Estado de México">Estado de México</option>
+                            <option value="Guanajuato">Guanajuato</option>
+                            <option value="Guerrero">Guerrero</option>
+                            <option value="Hidalgo">Hidalgo</option>
+                            <option value="Jalisco">Jalisco</option>
+                            <option value="Michoacán">Michoacán</option>
+                            <option value="Morelos">Morelos</option>
+                            <option value="Nayarit">Nayarit</option>
+                            <option value="Nuevo León">Nuevo León</option>
+                            <option value="Oaxaca">Oaxaca</option>
+                            <option value="Puebla">Puebla</option>
+                            <option value="Querétaro">Querétaro</option>
+                            <option value="Quintana Roo">Quintana Roo</option>
+                            <option value="San Luis Potosí">San Luis Potosí</option>
+                            <option value="Sinaloa">Sinaloa</option>
+                            <option value="Sonora">Sonora</option>
+                            <option value="Tabasco">Tabasco</option>
+                            <option value="Tamaulipas">Tamaulipas</option>
+                            <option value="Tlaxcala">Tlaxcala</option>
+                            <option value="Veracruz">Veracruz</option>
+                            <option value="Yucatán">Yucatán</option>
+                            <option value="Zacatecas">Zacatecas</option>
+                        </select> 
+                    </div>
+                    <div><br/>
+                        <h1 id="title">ASPIRACIÓN AL PUESTO</h1>
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id= "preguntaUno" placeholder="¿Por qué dejaste tu ultimo trabajo?" cols="10" rows="5">
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id= "preguntaDos" placeholder="¿Por qué te interesa trabajar en esta empresa?" cols="10" rows="5">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>¿Cual es mejor para tí? </label>
+                        <select name="option" type="option" id=" opcionC" class="input-field">
+                            <option>Selecione</option>
+                            <option>Trabajo en equipo</option>
+                            <option>Iniciativa</option>
+                            <option>Toma de decisiones</option>
+                            <option>Adaptabilidad</option>    
+                        </select> 
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id= "preguntaDesc" placeholder="Describe una de tus fortalezas" cols="10" rows="5">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>¿Nivel de ingles? </label>
+                        <select name="option" type="option" id="opcionIngles" class="input-field">
+                            <option>Selecione</option>
+                            <option>Básico</option>
+                            <option>Intermedio</option>
+                            <option>Avanzado</option>    
+                        </select> 
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>¿Cómo prefieres comunicarte? </label>
+                        <select name="option" type="option" id=  "opcionComunicacion" class="input-field">
+                            <option>Selecione</option>
+                            <option>Reuniones frecuentes en persona</option>
+                            <option>Comunicación por correo electrónico</option>
+                            <option>Plataforma de gestión de proyectos en línea</option>
+                            <option>Llamadas telefónicas regulares</option>    
+                        </select> 
+                    </div>
+                    <div class="input-field" id="nameInput">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" id="situacionSuperada" placeholder="Situación de un desafío que superaste" cols="10" rows="5">
+                    </div>
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i>
+                        <label>¿Cultura empresarial que prefieres? </label>
+                        <select name="option" type="option" id="preguntaPrefieres" class="input-field">
+                            <option>Selecione</option>
+                            <option>Innovadora y creativa</option>
+                            <option>Estructurada y orientada a procesos</option>
+                            <option>Colaborativa y orientada al equipo</option>
+                            <option>Orientada a resultados y competitiva</option>    
+                        </select> 
+                    </div>
+
+                    <div class="btn-field">
+                        <button id="Enviarform" type="submit" >Enviar formulario</button>
+                        <button id="Limpiarform" type="submit" >Limpiar formulario</button>
+                    </div>
+                    <p>Revisa tus datos antes de enviar</p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="/javascripts/script.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/javascripts/forms.js"></script>
+    <script src="/javascripts/enviar.js"></script>
+</body>
+</html>
